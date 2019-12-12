@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+    <html lang="en">
+    	<head>
+          <meta charset="utf-8">
+          <title>Web App Lab</title>
+           <marquee bgcolor = "black"><font color='#00FFFF'>မနက်ဖန်ဆိုတာ စိတ်ကူးယာဉ်ဖို့ ကိုယ့်ဘဝကိုယ်မပိုင်တဲ့ မင်းတို့ရဲ့အကိုကြီးတောင် ဒီအသက်ဒီအရွယ်ထိ မအားတဲ့ကြားက လေ့လာသင်ယူနေတုန်းပါ. . .</font><font color='#33FF33'>! ! ! မင်းတို့တွေ ငယ်ငယ်ရွယ်ရွယ်နဲ့ ရည်မှန်းချက်ရှိရှိကြိုးစားလေ့လာပြီး တတ်မြောက်အောင်မြင်စေချင်တယ် ! ! !</font><font color='#00CCFF'>____အယ်လယ့်____</font></marquee>
+    	</head>    
+    		<body><center><h1><span style="color:#CC0000">Web Application Security Guide for Beginner</span></h1></center><hr/>
+          <h2><span style="color:#800000;"><strong>Before You Start</strong></span></h2>
+            <ul>
+              <li>Information Security field ထဲကို အမှန်အကန်စဝင်တော့မယ်ဆိုရင် Hacking နဲ့ ပက်သက်ပြီး တစ်ချိန်ကသိခဲ့သမျှကို မေ့ထားဖို့တော့လိုလိမ့်မယ်။</li>
+              <li>Penteration Testing ဆိုတဲ့အကြောင်းကို မဖတ်ဖူးသေးပဲ မသိနားမလည်သေးခင် Hacking Tool တွေကို မသုံးပါနဲ့။
+              <li>Tool မှာရေးထားတဲ့ code ကို နားမလည်ပဲ မဆန်းစစ်ပဲ download လုပ်ပီး မသုံးမိစေနဲ့။</li>
+              <li>စာဖတ်ပါ၊ အသုံးပြုပုံတွေလေ့လာပါ၊ Tool တွေကို ဘုမသိဘမသိ လျှောက်သုံးနေတဲ့ Scritpt kiddie မဖြစ်ပါစေနဲ့။</li>
+              <li>Hacker အမျိုးအစားတွေကို <a href="https://www.tutorialspoint.com/ethical_hacking/ethical_hacking_hacker_types.htm"> ဒီမှာ </a>သွားဖတ်ကြည့်ပါ။</li>
+              <li>Hacking ပညာရပ်တွေထဲက web application hacking ကို စပြီးလေ့လာဖို့အတွက် Reference အနေနဲ့ <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=2ahUKEwj4ubXjkK3mAhXXSH0KHROtCzYQFjAAegQIAhAC&url=http%3A%2F%2Findex-of.es%2FEBooks%2F11_TheWeb%2520Application%2520Hackers%2520Handbook.pdf&usg=AOvVaw370qSA9Y0Fkc4PzAAxfeDA">Web Application Hacker's Handbook (2nd Edition)</a>ကို အဓိကထားပြီး သတိရတိုင်းဖတ်ပါ ပြီးဆုံးအောင်ဖတ်ပါ နားလည်အောင်ဖတ်ပါ။ အခြေခံသဘောတရားနည်းလမ်းတွေသိလာြပီ ဆိုမှ နောက်ထပ်ဖတ်ရမဲ့ စာအုပ်တွေကို ထပ်ညွှန်းပေးပါမယ် </li>
+              <li>စာအုပ်ဖတ်ရင်းနဲ့ ပဲ အောက်မှာပေးထားတဲ့ lab တွေနဲ့ တွဲပြီးလေ့ကျင့်ပါ။</li>
+              <li>Lab သွင်းတဲ့အချိန် အဆင်မပြေတာကြုံတွေ့လာရင် Internet ပေါ်မှာ အရင်ရှာကြည့်ပြီး ဖြေရှင်းပါ။ အဲ့လိုဖြေရှင်းလို့ မရတော့ဘူး မလုပ်တတ်တော့ဘူးဆိုမှလာမေးပါ။ ထပ်ပြီးလမ်းညွှန်ပေးပါမယ် </li>              
+             </ul>
+
+          <h2><span style="color:#3300CC">Web for Pentester</span></h2>
+            <ul>              
+              <li>Pentest Lab ကရေးသားထားတဲ့ web security ကို စတင်လေ့လာမဲ့သူတွေအတွက် သင့်တော်တဲ့ Lab တစ်ခုဖြစ်တယ်။
+              </li>
+              <li>ဒီ lab က virtual machine ပေါ်မှာ run ရမဲ့ Linux machine တစ်ခုပဲဖြစ်တယ်</li>              
+              <li><a href=https://www.vulnhub.com/entry/pentester-lab-web-for-pentester,71/ > Download </a></li>
+              <li><a href=http://www.sec-art.net/2018/03/how-to-install-web-for-pentester-vm-in.html > Lab Setup </a></li>
+            </ul>
+
+          <h2><span style="color:#FF6600">bWAPP</span></h2>
+            <ul>              
+              <li>bWAPP ဆိုတာ OWASP Top 10 project ထဲက အပြင်မှာတွေ့ရတဲ့ web vulnerabilites တွေကို စုစည်းပေးထားတာဖြစ်တယ်
+              </li>
+              <li>Web Hacking ကို စတင်လေ့လာမဲ့သူတွေအတွက် attack ပေါင်းစုံစမ်းလေ့ကျင့်နိုင်အောင် ဒီ bWAPP ကို ရေးသားထားတာဖြစ်တယ်</li>
+              <li><a href=http://www.itsecgames.com/ > Download </a></li>
+              <li><a href=https://www.hackingarticles.in/web-application-lab-setup-on-windows/ > Lab Setup </a></li>
+            </ul>
+
+          <h2><span style="color:#006600">DVWA</span></h2>
+      			<ul>              
+      				<li>DVWA ဆိုတာ web security ကို လေ့လာဖို့ အားနည်းချက်တွေ ပါတဲ့ ဆိုဒ်တစ်ခုကို PHPနဲ့ရေးထားပြီး MySQL &nbsp;database ကို အသုံးပြုထားတယ်
+      				</li>
+      				<li>Real-world မှာ အတွေ့များတဲ့ တိုက်ခိုက်ခံရတဲ့ အားနည်းချက်တွေကို စမ်းသပ်လို့ ရအောင်တည်ဆောက်ထားတယ်</li>
+      				<li><a href=http://www.dvwa.co.uk/ > Download </a></li>
+      				<li><a href=http://www.effecthacking.com/2015/12/setup-dvwa-using-xampp-windows.html > Lab Setup  </a></li>	          
+      			</ul>
+            <center><p><strong> *** အခုက Hacking နယ်ပယ်ထဲက web application security အပိုင်းရဲ့ အခြေခံသဘောတရားတွေကို တီးမိခေါက်မိလောက်ပဲရှိအုံးမှာပါ။ ရှေ့ဆက်လေ့လာသင်ယူရမဲ့ အရာတွေ အများကြီးကျန်ပါသေးတယ်။ ***</strong></p></center>
+          <h2><span style="color:#990099"><strong>Online Pentesting Lab</strong></span></h2>
+             <table>
+                <thead>
+                  <tr>
+                  <th>Name</th>
+                  <th>Description</th>
+                  </tr>
+                  </thead>
+                  <tbody>
+                  <tr>
+                  <td><a href="https://www.hackthebox.eu" rel="nofollow">Hack The Box :: Penetration Testing Labs</a></td>
+                  <td>အမိုက်စား Online Plaform ပဲ။ Register လုပ်ဖို့ကစပီးတိုင်ပတ်မှာပါ။ စိတ်မပူပါနဲ့ googling လုပ်ပါ</td>
+                  </tr>                  
+                  <tr>
+                  <td><a href="https://hack.me/" rel="nofollow">Hack.me</a></td>
+                  <td>Lets you build/host/attack vulnerable web apps</td>
+                  </tr>                  
+                  <tr>
+                  <td><a href="https://www.owasp.org/index.php/OWASP_Vulnerable_Web_Applications_Directory_Project#tab=On-Line_apps" rel="nofollow">OWASP Vulnerable Web Applications Directory Project (Online)</a></td>
+                  <td>List of online available vulnerable applications for learning purposes.</td>
+                  </tr>
+                  <tr>
+                  <td><a href="https://lab.pentestit.ru" rel="nofollow">Pentestit labs</a></td>
+                  <td>Hands-on Pentesting Labs (OSCP style)</td>
+                  </tr>
+                  <tr>
+                  <td><a href="https://www.root-me.org" rel="nofollow">Root-me.org</a></td>
+                  <td>Hundreds of challenges are available to train yourself in different and not simulated environments</td>
+                  </tr>
+                  <tr>
+                  <td><a href="https://www.vulnhub.com" rel="nofollow">Vulnhub.com</a></td>
+                  <td>Vulnerable By Design VMs for practical 'hands-on' experience in digital security</td>
+                  </tr>
+                  <tr>
+                  <td><a href="https://pentesterlab.com/" rel="nofollow">PentesterLab</a></td>
+                  <td>20$ signature, complete content basic to write exploits, web, android.</td>
+                  </tr>                  
+                  </tbody>
+                  </table><hr/>
+                  <center><p><strong>My Hackthebox Profile<script src="https://www.hackthebox.eu/badge/44137"></script> </strong></p></center><hr/>
+
+            <h2>Penterating Testing Guide for Beginner</h2>
+              <ul>
+                <li>Comming Soon....</li>
+              </ul>
+    		</body>
+	</html>
